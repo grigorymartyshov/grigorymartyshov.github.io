@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+			<div id="header-wrapper">
+				<div class="container">
+					{% include header.html %}
+					<div id="banner">
+						<h2><strong>UnusualLegend:</strong>Here I want to demonstrate the possibilities and beauty created by the unification of many people</h2><br>
+					</div>
+				</div>
+			</div>
+      {% include news.html%}
+		<div id="footer-wrapper">
+			{% include footer.html %}
+		</div>
+	</div>
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/jquery.dropotron.min.js"></script>
+	<script src=".//assets/js/browser.min.js"></script>
+	<script src="../assets/js/breakpoints.min.js"></script>
+	<script src="../assets/js/util.js"></script>
+	<script src="../assets/js/main.js"></script>
+	<script src="../assets/js/js.js"></script>
+	<script>
+		(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
+		s.src = 'https://reeern-com.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+		})();
+		</script>
+	</body>
+</html>
